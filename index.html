@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kofeely Coffee — Good Coffee, Great Food, Better Mood." />
+  <title>Kofeely Coffee | Coffee & Tiramisu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="navbar" id="navbar">
+    <a class="brand" href="#home" aria-label="Kofeely Coffee home">
+      <img src="assets/logo.jpg" alt="Kofeely Coffee logo" />
+      <span>Kofeely Coffee</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about"><span>⌂</span> About Us</a>
+      <a href="#products"><span>☕</span> Products</a>
+      <a href="#location"><span>⌖</span> Location</a>
+      <a href="#contact"><span>✦</span> Contact Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">GOOD COFFEE <b>•</b> GREAT FOOD <b>•</b> BETTER MOOD</p>
+        <h1>Chilled Coffee<br><em>Sweeter Days</em></h1>
+        <p class="hero-copy">
+          Rich coffee. Creamy indulgence.<br>
+          A little slice of Tiramisu.<br>
+          That's Kofeely Coffee.
+        </p>
+        <a href="#products" class="btn">Explore Our Menu <span>↓</span></a>
+      </div>
+
+      <!-- <div class="hero-product reveal">
+        <img src="assets/coffee.jpg" alt="Kofeely cold coffee" />
+      </div> -->
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section-light" id="about">
+      <div class="about-image reveal">
+        <div class="image-frame">
+          <img src="assets/coffee.jpg" alt="Coffee at Kofeely Coffee" />
+        </div>
+      </div>
+
+      <div class="about-content reveal">
+        <p class="eyebrow brown">ABOUT US</p>
+        <h2>A Café Built On<br>Good Coffee And Great Vibes</h2>
+        <p>
+          At Kofeely Coffee, we believe great coffee brings people together.
+          Our cold coffee is crafted to be rich, refreshing and unforgettable,
+          paired perfectly with classic Tiramisu for a truly indulgent experience.
+        </p>
+
+        <div class="feature-row">
+          <div class="feature">
+            <span class="feature-icon">●</span>
+            <div><strong>Premium<br>Coffee Beans</strong><small>Quality in every sip</small></div>
+          </div>
+          <div class="feature">
+            <span class="feature-icon">☕</span>
+            <div><strong>Chilled &<br>Refreshing</strong><small>Perfect for any day</small></div>
+          </div>
+          <div class="feature">
+            <span class="feature-icon">⌁</span>
+            <div><strong>Great Food<br>Better Mood</strong><small>More than just coffee</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="products" id="products">
+      <div class="section-heading reveal">
+        <p class="eyebrow">OUR PRODUCTS</p>
+        <h2>Simple Menu, Big Happiness</h2>
+        <div class="heading-line"></div>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card reveal">
+          <div class="product-image">
+            <img src="assets/coffee.jpg" alt="Cold coffee" />
+          </div>
+          <div class="product-info">
+            <h3>Cold Coffee</h3>
+            <p>Rich, refreshing and perfectly chilled. Made for every coffee lover.</p>
+            <div class="price-row">
+              <div class="price"><b>₹50</b><span>Classic</span></div>
+              <div class="price"><b>₹70</b><span>Extra Choco</span></div>
+              <div class="price"><b>₹90</b><span>Premium</span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal">
+          <div class="product-image">
+            <img src="assets/tiramisu.jpg" alt="Tiramisu" />
+          </div>
+          <div class="product-info">
+            <h3>Tiramisu</h3>
+            <p>A classic Italian dessert with layers of coffee, cream and indulgence.</p>
+            <div class="tiramisu-price">₹180 – ₹200 <span>Per serving</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- LOCATION -->
+    <section class="location section-light" id="location">
+      <div class="section-heading reveal">
+        <p class="eyebrow brown">OUR LOCATION</p>
+        <h2>Come Say Hi</h2>
+      </div>
+
+      <div class="location-grid">
+        <div class="map-card reveal">
+          <iframe
+            title="Kofeely Coffee location"
+            src="https://www.google.com/maps?q=MARS%20Resort%20Subharti%20Road%20Meerut%20Uttar%20Pradesh&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+
+        <div class="location-details reveal">
+          <div class="detail">
+            <span class="detail-icon">⌖</span>
+            <div>
+              <strong>MARS Resort ke saamne</strong>
+              <p>Subharti Road, Meerut,<br>Uttar Pradesh</p>
+            </div>
+          </div>
+
+          <div class="detail">
+            <span class="detail-icon">◷</span>
+            <div>
+              <strong>Open Daily</strong>
+              <p>10:00 AM – 10:00 PM</p>
+            </div>
+          </div>
+
+          <div class="detail">
+            <span class="detail-icon">➤</span>
+            <div>
+              <strong>Easy to Find</strong>
+              <p>Located right opposite MARS Resort</p>
+            </div>
+          </div>
+
+          <a
+            class="directions"
+            href="https://www.google.com/maps/search/?api=1&query=MARS+Resort+Subharti+Road+Meerut+Uttar+Pradesh"
+            target="_blank"
+            rel="noopener">
+            Get Directions ↗
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / FOOTER — no message form -->
+    <footer class="footer" id="contact">
+      <div class="footer-brand">
+        <img src="assets/logo.jpg" alt="Kofeely Coffee logo">
+        <div>
+          <h2>Kofeely Coffee</h2>
+          <p>Good Coffee <b>•</b> Great Food <b>•</b> Better Mood</p>
+        </div>
+      </div>
+
+      <div class="footer-contact">
+        <a href="#location">⌖ <span>MARS Resort ke saamne,<br>Subharti Road, Meerut</span></a>
+        <a href="https://www.instagram.com/kofeelycoffee?utm_source=qr&stkn=aDE1amxqNmVyMXZo" target="_blank" rel="noopener">◎ <span>Instagram</span></a>
+      </div>
+
+      <p class="copyright">© <span id="year"></span> Kofeely Coffee. All rights reserved.</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
